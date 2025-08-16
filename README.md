@@ -1,5 +1,6 @@
 # PYLON
 
+Mainly for the AWUS1900 802.11ac 1900 Mbps Dual band 2.4/5 GHz Wi-Fi USB Adapter
 **Stealth & Control Wrapper for ALFA Wireless Adapters on Kali Linux**
 
 PYLON is a simple shell framework to manage your ALFA USB WiFi adapter for **HTB labs**, **CEH practice**, or personal research.  
