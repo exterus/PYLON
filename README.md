@@ -33,3 +33,21 @@ It provides easy toggling between **listen-only stealth mode** and **active mana
 git clone https://github.com/Exterus/PYLON.git
 cd PYLON
 sudo ./pylon.sh setup
+Usage
+
+After setup, you can toggle modes with:
+
+sudo /usr/local/bin/pylon.sh listen     # Stealth mode (monitor, txpower 10, random MAC, outbound blocked)
+sudo /usr/local/bin/pylon.sh loud       # Active mode (managed, random MAC, outbound allowed)
+sudo /usr/local/bin/pylon.sh switch     # Toggle between modes
+sudo /usr/local/bin/pylon.sh audit      # Print current PYLON state
+sudo /usr/local/bin/pylon.sh boot-listen on   # Auto start in listen mode at boot
+
+License
+
+MIT License. See LICENSE for details.
+
+Acknowledgment:
+This project references and builds upon morrownr’s rtl8814au driver, which is GPLv2 licensed.
+All credit for driver development goes to morrownr and contributors.
+EOF
